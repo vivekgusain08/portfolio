@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.htm"><img src="OIP-removebg-preview2.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.htm">HOME</a></li>
+                    <li><a href="about.htm">ABOUT</a></li>
+                    <li><a href="contact.htm">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Social Share Button</h1>
+            <p>A social share button is a clickable icon placed on a website or <br> webpage that allows users to easily share content on their social media profiles with just one click.</p>
+            <a href="#" class="hero-btn" id="show-login">visit us to know more</a>
+        </div>
+    </section>
+
+   <!-- modal section -->
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Log in</h2>
+            <div class="form-element">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="enter email">
+            </div>
+            <div class="form-element">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="enter password">
+            </div>
+            <div class="form-element" id="remem">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <div class="form-element">
+                <a href="page.htm">
+                    <button>Sign in</button>
+                </a>
+            </div>
+            <div class="form-element">
+                <a href="#">Forgot password</a>
+            </div>
+        </div>
+    </div>     
+    <footer>
+        <div class="about">
+            <h4>Connect With Us</h4>
+            <p>We are a team of three students, whose names are Vinayak Dhar, Vishav Ghai, and Vivek Gusain and are studying in Chitkara University. <br>Our project is a social share button using HTML and CSS. <br>We are from Group - 25 B, team - 22. </p>
+            <div class="icons">
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+            <p>&#169; 2023-2023 LOGO INDIA</p>
+        </div>
+    </footer>
+</body>
+</html>
